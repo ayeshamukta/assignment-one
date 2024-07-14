@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-} 
+
 /* New Year Part  */
 .dev
 {
@@ -36,8 +31,8 @@
 }
 .small_font
 {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500px;
     line-height: 26px;
     color: rgb(13, 19, 33);
     width: 852px;
@@ -48,19 +43,33 @@
     background-image: url(../assets/Hero-bg.png);
     /* bottom: 4462px; */
 }
-.btn
+.dev .btn
+{
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        font-weight: 800px;
+        font-size: 20px;
+        padding: 0px;
+        
+        
+}
+button
 {
     border-radius: 8px;
-    background: rgb(13, 19, 33);
+    /* background-color: rgb(13, 19, 33); */
     margin: 32px 0px;
     padding: 21px 24px 21px 24px;
-    color: white;
+    
     width: 208px;
     height: 66px;
+    color: white;
+    background-color: black;
+    
 }
 /* why development part */
 
-.bg .bg-two >.w-dev
+.bg .bg-two .w-dev
 {
     width: 946px;
     height: 1072px;
@@ -69,14 +78,14 @@
     justify-content: center;
     align-items: center;
     padding: 0px;
-    margin: 48px 0px;
+    
 }
 .w-dev .content
 {
     display: flex;
     justify-content: space-between;
-    gap: 99px;
-    width: 850px;
+    gap: 10px;
+    max-width: 850px;
     height: 240px;
     align-items: center;
     margin: 32px 0px;
@@ -165,17 +174,10 @@
 .v-con
 {
   
-    /* width: 852px;
-    height: 113px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    margin: 48px 0px;*/
+    
     text-align: center;
     margin-top: 48px 0px;
-    /* padding-bottom: 20px; */
+   
 } 
 .v-heading
 {
@@ -218,7 +220,7 @@ iframe
 .part-one
 {
     background-image: url(../assets/handshake.jpg);
-    background-image: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
     border-radius: 16px;
     background-size: cover;
     background-position: 100%;
@@ -334,4 +336,13 @@ iframe
     flex-direction: row;
     gap:35%;
     margin-left: 10%;
+}
+.small-font-two
+{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    width: 350px;
+    text-align: start;
 }
