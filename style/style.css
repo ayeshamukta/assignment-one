@@ -109,7 +109,7 @@
     background: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 
 }
 .content .description
@@ -153,13 +153,14 @@
     flex-direction: column;
     justify-content: center;
     width: 1740px;
-    height: 775px;
+    height: 975px;
     left: 148px;
     right: 152px;
     top: 2340px;
     bottom: 2130px;
     align-items: center;
     gap: 48px;
+    align-self: center;
 }
 .v-con
 {
@@ -201,4 +202,136 @@ iframe
     width: 1076px;
     height: 550px;
     margin: 30px;
+}
+
+/* footer part */
+.f_h
+{
+    color:rgb(255, 255, 255);
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.part-one
+{
+    background-image: url(../assets/handshake.jpg);
+    background-image: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    background-size: cover;
+    background-position: 100%;
+    box-shadow: rgb(3, 3, 3);
+    
+    width: 1000px;
+    height: 180px;
+    /* left: 1000px; */
+    right: 1400px;
+    margin: 0px 320px;
+    
+    /* width: 1000px;
+    height: 190px; */
+    /* left: 255px;
+    right: 150px; */
+    top: 2850px;
+    /* bottom: 180px; */
+    padding: 64px 48px 64px 48px;
+    align-items: center;
+    align-self: center;
+    /* margin: auto; */
+    /* position: absolute; */
+}
+.suggest
+{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    
+    width: 548px;
+    height: 57px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
+}
+.submit
+{
+    width: 120px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+}
+.submit , .suggest
+{
+    
+    display: inline;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+   
+}  
+.f-c
+{
+    color: rgb(255, 255, 255);
+}
+.inner
+{
+    
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 15px;
+    
+
+}
+
+.part-two
+{
+    width: 1650px;
+    height: 100px;
+    /* left: 0; */
+    /* top: 5145px; */
+    
+ 
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* gap: 600px; */
+    justify-content: center; 
+    /* align-items: center; */
+    padding: 18px 150px 18px 150px;
+
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+    margin: 55px 0px 0px 0px;
+}
+
+.gap
+{
+    display: flex;
+    gap: 24px;
+    align-items: first baseline;
+
+}
+.align
+{
+    display: flex;
+    flex-direction: row;
+    gap:35%;
+    margin-left: 10%;
 }
