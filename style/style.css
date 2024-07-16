@@ -42,6 +42,8 @@
 #group
 {
     background-image: url(../assets/Hero-bg.png);
+    width: 2000px;
+
     /* bottom: 4462px; */
 }
 .dev .btn
@@ -114,7 +116,7 @@ button
 }
 .bg
 {
-    width: 1650px;
+    width: 2000px;
     height: 1300px;
     background: rgb(255, 255, 255);
     display: flex;
@@ -162,11 +164,11 @@ button
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1740px;
+    width: 2000px;
     height: 975px;
     left: 148px;
     right: 152px;
-    top: 2340px;
+    top: 2300px;
     bottom: 2130px;
     align-items: center;
     gap: 48px;
@@ -231,7 +233,7 @@ iframe
     height: 180px;
     /* left: 1000px; */
     /* right: 2000px; */
-    margin: 0px 350px;
+    margin: 0px 450px;
     
     top: 2850px;
     /* bottom: 180px; */
@@ -301,7 +303,7 @@ iframe
 
 .part-two
 {
-    width: 1650px;
+    width: 1800px;
     height: 50px;
     /* left: 0; */
     /* top: 5145px; */
@@ -312,7 +314,7 @@ iframe
     /* gap: 600px; */
     justify-content: center; 
     /* align-items: center; */
-    padding: 18px 150px 18px 150px;
+    padding: 18px 100px 18px 100px;
 
     border-radius: 16px;
 
@@ -324,16 +326,20 @@ iframe
 {
     display: flex;
     gap: 24px;
-    align-items: first baseline;
+    
 
 }
 .align
 {
     display: flex;
     flex-direction: row;
-    gap:38%;
-    margin-left: 13%;
-    margin-right: 12%;
+    /* gap:36%; */
+    /* margin-left: 17%;
+    margin-right: 12%; */
+    
+    align-items: center;
+    gap: 500px;
+    margin-left: 350px;
 }
 .small-font-two
 {
@@ -361,7 +367,7 @@ iframe
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1240px;
+    width: 1430px;
     height: 450px;
     margin: 80px 280px;
 }
@@ -430,3 +436,8 @@ iframe
     
 
 }
+/* #abt
+{
+    width: 2000px;
+    align-items: center;
+} */
